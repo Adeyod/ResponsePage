@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.right-section {
+display: flex;
+align-items: center;
+padding-right: 10px;
+}
+.gmail-link {
+  padding:0 10px 12px;
+  text-decoration: none;
+  color: rgb(27, 26, 26);
+}
+.img-link {
+  padding: 0 10px 12px;
+  text-decoration: none;
+  color: rgb(27, 26, 26);
+}
+.child-container2 {
+  padding: 10px 10px 10px;
+}
+.img-logo {
+  width: 30px; 
+  padding-right: 15px;
+}
+.profile-pics {
+width: 38px;
+border-radius: 80px;
+}
+
+.google-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  margin: auto;
+}
+.search-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.text-area {
+  height: 40px;
+  width: 45vw;
+  border-radius: 20px;
+  border: 0.1px solid rgb(241, 239, 239);
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 30px;
+}
+.text-area:hover {
+  border: 1px solid red;
+}
+.text-area:active {
+  border-color: blue;
+}
+
+.search-icon {
+  width: 18px;
+  margin-left: -648px;
+  padding: 12px;
+  position: absolute;
+  
+}
+.voice-search {
+  width: 18px;
+  margin-left: -80px;
+  margin-top: 10px;
+  position: absolute;
+}
+.pics-search {
+  width: 25px;
+  margin-left: -55px;
+  margin-top: 10px;
+  position: absolute;
+}
+.search-title {
+  padding: 10px 20px;
+  border: none;
+  margin-right: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.lucky-search {
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.search-title:hover,
+.lucky-search:hover {
+  opacity: 5;
+  background-color:rgb(228, 223, 223);
+  border:none solid #a5a5a5;
+  
+}
+.languages {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.hausa-language,
+.igbo-language,
+.yoruba-language,
+.pidgin-language {
+  padding: 16px 3px;
+  text-decoration: none;
+}
+.hausa-language:hover,
+.igbo-language:hover,
+.yoruba-language:hover,
+.pidgin-language:hover,
+.footer2 a:hover {
+  text-decoration: underline;
+}
+.footer1 {
+  height: 45px;
+  margin-top: 40px;
+  border: none 1px solid;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  color: #70757a;
+  font-size: 18px;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  border: none 1px solid;
+  border-top: 1px solid #c4c3c3;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  padding: 40px;
+}
+.footer-left {
+  color: #70757a;
+  
+}
+.footer2 a {
+  text-decoration: none;
+  color: #70757a;
+  font-size: 16px;
+  margin-right: 10px;
+}
+footer {
+  position:sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
