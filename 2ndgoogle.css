@@ -53,6 +53,10 @@ body {
   align-items: center;
   margin-top: 30px;
 }
+.search_box {
+  position: absolute;
+  left: 0;
+}
 .text_area {
   height: 40px;
   width: 90vw;
@@ -70,10 +74,9 @@ body {
 
 .search_icon {
   width: 18px;
-  margin-left: -648px;
   padding: 12px;
   position: absolute;
-  
+  left: 0;
 }
 .voice_search {
   width: 23px;
